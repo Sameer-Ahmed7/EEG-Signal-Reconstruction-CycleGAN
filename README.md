@@ -133,8 +133,8 @@ The Baseline Model follows the standard CycleGAN approach. It includes the typic
 
 In the Modified Model, the adversarial loss function is replaced from L1 loss to Mean Squared Error (MSE) to enhance the stability and accuracy of the model. The flow diagrams of this model are the same as the Baseline Model and are depicted in Figures 1 and 2.
 
-#### Parameters:
-The parameters of the Modified Model are the same as the Baseline Model, except for the change in the adversarial loss. Specifically, the adversarial loss is now MSE-based.
+The parameters of this model are the same as the Baseline Model, except for the change in the adversarial loss. Specifically, the adversarial loss is now MSE-based.
+
 ---
 
 ### 3. Enhanced Model with Identity Loss
