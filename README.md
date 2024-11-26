@@ -28,18 +28,31 @@ This project demonstrates the use of Cycle-Consistent Generative Adversarial Net
 ## Repository Structure
 
 ```plaintext
-├── code/
+## Project Structure
+
+The repository is organized as follows:
+
+```plaintext
+├── Code/
 │   ├── Enhancing_EEG_Signal_Reconstruction_in_Cross_Domain_Adaptation_Using_CycleGAN.ipynb
 │
-├── dataset/
+├── Dataset/
 │   ├── trainA/         # Training data from domain A (MRI images)
 │   ├── trainB/         # Training data from domain B (CWT images)
 │   ├── testA/          # Testing data from domain A (MRI images)
 │   ├── testB/          # Testing data from domain B (CWT images)
 │
-├── README.md           # Main project description
-├── requirements.txt    # Python dependencies
-├── LICENSE             # License information
+├── Images/
+|  ├── Figure-10.png    # Diagram: Enhanced Model (MRI to CWT) with identity mapping loss
+|  ├── Figure-11.png    # Diagram: Enhanced Model (CWT to MRI) with identity mapping loss
+|  ├── Figure-13.png    # Diagram: Enhanced Model summary with all components
+|  ├── Figure-8.png     # Diagram: Baseline Model (MRI to CWT) with cycle-consistency and adversarial losses
+|  ├── Figure-9.png     # Diagram: Baseline Model (CWT to MRI) with cycle-consistency and adversarial losses
+|
+├── LICENSE             # License information for the project
+├── README.md           # Main project description and usage instructions
+├── requirements.txt    # Python dependencies required for the project
+
 ```
 
 - **Code/:** Contains the main Jupyter notebook for the project.
@@ -48,6 +61,13 @@ This project demonstrates the use of Cycle-Consistent Generative Adversarial Net
   - **trainB:** CWT images for training.
   - **testA:** MRI images for testing.
   - **testB:** CWT images for testing.
+- **Images/:** Contains all the flow diagrams illustrating the CycleGAN architecture and model processes:
+  - **Figure-8.png:** Flow diagram of the baseline CycleGAN model for converting MRI to CWT images. Includes cycle-consistency and adversarial losses.
+  - **Figure-9.png:** Flow diagram of the baseline CycleGAN model for converting CWT to MRI images. Includes cycle-consistency and adversarial losses.
+  - **Figure-10.png:** Flow diagram of the Enhanced Model for converting MRI to CWT images with identity mapping loss.
+  - **Figure-11.png:** Flow diagram of the Enhanced Model for converting CWT to MRI images with identity mapping loss.
+  - **Figure-13.png:** Comprehensive diagram summarizing the Enhanced Model’s architecture with all components.
+- **LICENSE:** A file specifying the license for this project (e.g., Creative Commons Attribution 4.0 International). It defines how the project can be used, modified, and distributed.
 - **README.md:** Provides an overview of the project.
 - **requirements.txt:** Lists required Python libraries.
 
