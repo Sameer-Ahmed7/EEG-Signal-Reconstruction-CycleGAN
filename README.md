@@ -101,13 +101,12 @@ The Baseline Model follows the standard CycleGAN approach. It includes the typic
 #### Flow Diagram:
 
 1. **MRI to CWT:** The following diagram shows how the MRI images are converted into CWT (Continuous Wavelet Transform) images by the generator.
+    ![MRI to CWT](https://github.com/Sameer-Ahmed7/EEG-Signal-Reconstruction-CycleGAN/blob/main/Images/Figure-8.png)
+  *Figure 1: Flow diagram representing the architecture of the baseline CycleGAN model for converting Magnetic Resonance (MRI) images to Continuous Wavelet Transform (CWT) images. The diagram illustrates the cycle-consistency loss and adversarial losses for both discriminators.*
 
-![MRI to CWT](https://github.com/Sameer-Ahmed7/EEG-Signal-Reconstruction-CycleGAN/blob/main/Images/Figure-8.png)
-*Figure 1: Flow diagram representing the architecture of the baseline CycleGAN model for converting Magnetic Resonance (MRI) images to Continuous Wavelet Transform (CWT) images. The diagram illustrates the cycle-consistency loss and adversarial losses for both discriminators.*
-
-2. **CWT to MRI:** The next diagram shows the reverse transformation, where CWT images are converted back to MRI images.
-![CWT to MRI](https://github.com/Sameer-Ahmed7/EEG-Signal-Reconstruction-CycleGAN/blob/main/Images/Figure-9.png)
-*Figure 2: Flow diagram representing the process of converting Continuous Wavelet Transform (CWT) images back to Magnetic Resonance (MRI) images using the CycleGAN model. The diagram illustrates the cycle-consistency loss and adversarial losses for both discriminators.*
+3. **CWT to MRI:** The next diagram shows the reverse transformation, where CWT images are converted back to MRI images.
+  ![CWT to MRI](https://github.com/Sameer-Ahmed7/EEG-Signal-Reconstruction-CycleGAN/blob/main/Images/Figure-9.png)
+  *Figure 2: Flow diagram representing the process of converting Continuous Wavelet Transform (CWT) images back to Magnetic Resonance (MRI) images using the CycleGAN model. The diagram illustrates the cycle-consistency loss and adversarial losses for both discriminators.*
 ---
 
 ### 2. Adversarial Loss Modification
