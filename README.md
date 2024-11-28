@@ -1,7 +1,7 @@
 # Enhancing EEG Signal Reconstruction in Cross-Domain Adaptation Using CycleGAN
 
 
-This repository contains the implementation of our research paper, accepted at the **2024 International Conference on Telecommunications and Intelligent Systems (ICTIS)**.
+This repository contains the implementation of our research paper, accepted at the **2024 International Conference on Telecommunications and Intelligent Systems (ICTIS)**. 
 
 ### **Paper Title:**  
 **"Enhancing EEG Signal Reconstruction in Cross-Domain Adaptation Using CycleGAN"**
